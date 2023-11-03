@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../main/pic/vintage-grungy-textured-paper-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+}
+
+.container{
+    text-align: center;
+    margin-top: 34vh;
+}
+
+#title{
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 3vh;
+    font-weight: 900;
+    font-size: 45px;
+    background: -webkit-linear-gradient(#d17710, #1f0303);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#menu_search{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    width: 80vh;
+    height: 50px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 34px;
+    padding-left: 20px;
+    transition: 1s;
+}
+
+#menu_search:hover{
+    border: 3px solid blue;
+    transition: 1s;
+}
+
+#menu_list{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+.menu_item{
+    /* display: inline-block; */
+    margin-bottom: 2vh;
+}
+
+.menu_item a{
+    text-decoration: none;
+    color: black;
+    background: transparent;
+    border: 0.5px solid;
+    padding: 5px 10px;
+    border-radius: 34px;
+    -webkit-border-radius: 34px;
+    -moz-border-radius: 34px;
+    -ms-border-radius: 34px;
+    -o-border-radius: 34px;
+}
